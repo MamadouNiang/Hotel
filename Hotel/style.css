@@ -1,0 +1,107 @@
+    .spacer {
+        margin-top: 55px;
+    }
+    
+    .p {
+        position: absolute;
+        top: 70px;
+        left: 360px;
+    }
+    
+    .b {
+        position: relative;
+        top: 45px;
+        left: 320px;
+    }
+    
+    .e {
+        position: relative;
+        top: 45px;
+    }
+    
+    .navbar {
+        margin-bottom: 20;
+        border-radius: 20;
+    }
+    
+    .carousel {
+        background: rgba(255, 255, 255, 0.1);
+        margin-top: -10px;
+    }
+    
+    .carousel .item img {
+        margin: 0 auto;
+        /* Align slide image horizontally center */
+    }
+    
+    .bs-example {
+        margin: 5px;
+    }
+    
+    .navbar-default {
+        /* assigning the top bar to the entire navbar div element */
+        text-align: center;
+        box-shadow: inset 0px 0px 05px #00BCD4;
+        /* initial gray color to the top bar */
+    }
+    
+    .navbar-nav>li>a:hover,
+    .navbar-nav>li>a:focus {
+        color: white;
+        background-color: #AAA;
+        box-shadow: inset 0px 6px 0px #75caeb;
+        /* switch to a darker color on hover */
+    }
+    
+    .bu {
+        border-radius: 4px;
+        background-color: #75caeb;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 13px;
+        padding: 10px;
+        width: 100px;
+        transition: all 0.2s;
+        cursor: pointer;
+        margin: 3px;
+    }
+    
+    .bu span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+    
+    .bu span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -19px;
+        transition: 0.5s;
+    }
+    
+    .bu:hover span {
+        padding-right: 25px;
+    }
+    
+    .bu:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    
+    footer {
+        background-color: #f2f2f2;
+        padding: 45px;
+        position: relative;
+        top: 540px;
+        left: 0px;
+    }
+    
+    .i {
+        border-left: 0px solid black;
+        padding-left: 40px;
+        margin-left: 40px;
+    }
